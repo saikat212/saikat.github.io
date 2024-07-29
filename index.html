@@ -532,7 +532,6 @@
 
 </section>
 
-
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     const statusBoxes = document.querySelectorAll('.status-box');
@@ -540,6 +539,12 @@
   
     statusBoxes.forEach(box => {
       box.addEventListener('click', function() {
+        // Remove selected class from all status boxes
+        statusBoxes.forEach(b => b.classList.remove('selected'));
+
+        // Add selected class to the clicked status box
+        this.classList.add('selected');
+
         const selectedStatus = this.getAttribute('data-status');
         workBoxes.forEach(workBox => {
           if (selectedStatus === 'all' || workBox.getAttribute('data-status') === selectedStatus) {

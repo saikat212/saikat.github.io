@@ -1482,7 +1482,6 @@ section {
   border-left: 10px solid #ff6a00; /* Blue left border */
   border-radius: 4px; /* Rounded corners */
 }
-
 /* Styles for the status section */
 .research .status-section {
   display: flex;
@@ -1526,10 +1525,10 @@ section {
   margin-bottom: 10px;
   display: block;
 }
-.research .status-box.selected {
-  background: #f9a065;
-  border: 1px solid #ddd;
 
+.research .status-box.selected {
+  background: #e14e09; /* Change this to your desired color */
+  border: 1px solid #ddd;
   padding: 10px;
   width: 20%; /* Set width to take up one-third of the container */
   height: 10%;
@@ -1537,7 +1536,8 @@ section {
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-.research .status-box-selected label {
+
+.research .status-box.selected label {
   font-size: 1em;
   color: rgb(255, 255, 255);
   margin-bottom: 10px;
