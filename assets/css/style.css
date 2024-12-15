@@ -1395,12 +1395,13 @@ section {
 }
 
 .edu1 {
-  width: 60%;
+  width: 75%;
   height: auto;
   border-radius: 5px;
   margin-bottom: 20px;
   margin-left: 100px;
   margin-top: 10%;
+  
 }
 
 .edu1:hover {
@@ -1687,19 +1688,57 @@ section {
 .btn-primary {
   background-color: #5b5cba;
 }
-
+.btn-primary :hover {
+  background-color: #62707e;
+}
 .btn-secondary {
   background-color: #3a945a;
+}
+.btn-secondary :hover {
+  background-color: #62707e;
 }
 .btn-tertiary {
   background-color: #d86230;
 }
+.btn-tertiary :hover {
+  background-color: #62707e;
+}
 .btn-red {
   background-color: #d61010;
 }
-.btn:hover {
+.btn-red :hover {
   background-color: #62707e;
 }
+.btn-underReview {
+  background-color: #219f9b;
+}
+.btn-underReview:hover {
+  background-color: #219f9b; /* Same as default */
+}
+.btn-completed {
+  background-color: #088212;
+}
+
+.btn-completed:hover {
+  background-color: #088212; /* Same as default */
+}
+
+.btn-poster {
+  background-color: #9325ec;
+}
+
+.btn-poster:hover {
+  background-color: #a6aaa6; /* Same as default */
+}
+
+.btn-ongoing {
+  background-color: #ff005d;
+}
+
+.btn-ongoing:hover {
+  background-color:  #ff005d;/* Same as default */
+}
+
 
 /*--------------------------------------------------------------
 # My Project
