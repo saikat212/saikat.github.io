@@ -2383,3 +2383,29 @@ section {
   font-size: 16px; /* Font size */
   text-align: center; /* Centered text */
 }
+
+.blog-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+.blog-card img {
+  height: 200px; /* set the same height for all images */
+  width: 100%;
+  object-fit: cover; /* keeps image ratio but crops to fit */
+  border-radius: 10px; /* optional: match your card style */
+}
+.blog-card h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+.blog-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+.blog-card:hover {
+  transform: translateY(-5px);
+}
