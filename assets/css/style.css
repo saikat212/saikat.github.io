@@ -307,7 +307,7 @@ h6 {
 #hero {
   width: 100%;
   height: 50vh;
-  background: url("../img/propic.png") top right;
+  background: url("../img/mainpic.jpg") top right;
   background-size: cover;
   position: relative;
 }
@@ -592,7 +592,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/propic.png") center center no-repeat;
+  background: url("../img/mainpic.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1295,7 +1295,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/footer-bg.jpg") top center no-repeat;
+  background: url("../img/seapic.jpg") top center no-repeat;
   background-size: cover;
   color: #fff;
   font-size: 14px;
