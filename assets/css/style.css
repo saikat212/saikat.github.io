@@ -1296,7 +1296,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: url("../img/seapic.jpg") top center no-repeat;
-  background-size: cover;
+  background-size: contain;
   color: #fff;
   font-size: 14px;
   text-align: center;
