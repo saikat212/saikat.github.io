@@ -592,7 +592,7 @@ section {
 }
 
 .about .image {
-  background: url("../img/mainpic.jpg") center center no-repeat;
+  background: url("../img/tpc.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
@@ -1295,7 +1295,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/seapic.jpg") top center no-repeat;
+  background: url("../img/cplanpic.jpg") top center no-repeat;
   background-size: auto;
   color: #fff;
   font-size: 14px;
