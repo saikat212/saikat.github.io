@@ -1295,12 +1295,12 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: url("../img/cplanpic.jpg") top center no-repeat;
+  background: url("../img/rsz_cplanpic.jpg") top center no-repeat;
   background-size: contain;
   color: #fff;
   font-size: 14px;
   text-align: center;
-  padding: 300px 0;
+  padding: 80px 0;
   position: relative;
   
 }
